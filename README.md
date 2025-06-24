@@ -15,7 +15,7 @@ Los datos se almacenan localmente en un archivo JSON, ideal para pruebas y desar
 
 ## 📂 Estructura del proyecto
 
-```
+
 📦 crossfit-wod-api/
 │
 ├── 📂 src/
@@ -34,7 +34,7 @@ Los datos se almacenan localmente en un archivo JSON, ideal para pruebas y desar
 │
 ├── 📄 package.json
 └── 📄 README.md
-```
+
 
 - **controllers/**: Controladores de la lógica de negocio.
 - **database/**: Base de datos local (JSON) y utilidades de acceso.

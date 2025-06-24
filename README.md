@@ -17,12 +17,11 @@ Los datos se almacenan localmente en un archivo JSON, ideal para pruebas y desar
 
 ## 📂 Estructura del proyecto
 /src
-├── controllers/ # Lógica de controladores
-├── routes/ # Definición de rutas
-├── services/ # Lógica de negocio
-├── database/ # JSON con datos simulados
-└── utils/ # Utilidades generales
----
+├── controllers/    # Lógica de controladores
+├── routes/         # Definición de rutas
+├── services/       # Lógica de negocio
+├── database/       # JSON con datos simulados
+└── utils/          # Utilidades generales
 
 ## 📋 Endpoints principales
 

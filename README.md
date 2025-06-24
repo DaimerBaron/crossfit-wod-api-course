@@ -16,24 +16,24 @@ Los datos se almacenan localmente en un archivo JSON, ideal para pruebas y desar
 ## 📂 Estructura del proyecto
 
 ```
-crossfit-wod-api/
+📦 crossfit-wod-api/
 │
-├── src/
-│   ├── controllers/
-│   │   └── workout.controller.js
-│   ├── database/
-│   │   ├── db.json
-│   │   ├── Workout.js
-│   │   └── utils.js
-│   ├── services/
-│   │   └── workout.service.js
-│   ├── v1/
-│   │   └── routes/
-│   │       └── workout.routes.js
-│   └── index.js
+├── 📂 src/
+│   ├── 📂 controllers/
+│   │   └── 📄 workout.controller.js
+│   ├── 📂 database/
+│   │   ├── 📄 db.json
+│   │   ├── 📄 Workout.js
+│   │   └── 📄 utils.js
+│   ├── 📂 services/
+│   │   └── 📄 workout.service.js
+│   ├── 📂 v1/
+│   │   └── 📂 routes/
+│   │       └── 📄 workout.routes.js
+│   └── 📄 index.js
 │
-├── package.json
-└── README.md
+├── 📄 package.json
+└── 📄 README.md
 ```
 
 - **controllers/**: Controladores de la lógica de negocio.

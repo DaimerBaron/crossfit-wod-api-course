@@ -14,13 +14,33 @@ Los datos se almacenan localmente en un archivo JSON, ideal para pruebas y desar
 - 🌐 Endpoints agrupados bajo: `/api/v1/workouts`
 
 ## 📂 Estructura del proyecto
-/src
----
-├── controllers/    # Lógica de controladores
-├── routes/         # Definición de rutas
-├── services/       # Lógica de negocio
-├── database/       # JSON con datos simulados
-└── utils/          # Utilidades generales
+
+```
+crossfit-wod-api/
+│
+├── src/
+│   ├── controllers/
+│   │   └── workout.controller.js
+│   ├── database/
+│   │   ├── db.json
+│   │   ├── Workout.js
+│   │   └── utils.js
+│   ├── services/
+│   │   └── workout.service.js
+│   ├── v1/
+│   │   └── routes/
+│   │       └── workout.routes.js
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
+
+- **controllers/**: Controladores de la lógica de negocio.
+- **database/**: Base de datos local (JSON) y utilidades de acceso.
+- **services/**: Servicios con la lógica principal de la aplicación.
+- **v1/routes/**: Definición de rutas de la API.
+- **index.js**: Punto de entrada de la aplicación.
 
 ## 📋 Endpoints principales
 
